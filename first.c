@@ -1,5 +1,8 @@
 #include <stdio.h>
 
 int main(){
- printf("hello world");
+ printf("hitesh\n\n");
+ printf("hello\n");
+ printf("\t \" \\anime\\ \" ");
+ return 0;
 }
