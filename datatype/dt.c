@@ -10,5 +10,15 @@ int main()
     printf("integer = %d\n", number);
     printf("float = %f\n", dec);
     printf("dobule = %lf\n", decDec);
-    printf("Char = %c\n", ch)
+    printf("Char = %c\n", ch);
+
+    int a = 2;
+    int b = -23;
+    int c = +214;
+    int d = 3902;
+
+    printf("%05d\n", a);
+    printf("%+3d\n", b);
+    printf("%+4d\n", c);
+    printf("%1d\n", d);
 }
