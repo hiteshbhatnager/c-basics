@@ -17,8 +17,8 @@ int main()
     int c = +214;
     int d = 3902;
 
-    printf("%05d\n", a);
-    printf("%+3d\n", b);
-    printf("%+4d\n", c);
-    printf("%1d\n", d);
+    printf("%05d\n", a); // 00002
+    printf("%+3d\n", b); //-23
+    printf("%+4d\n", c); // +214
+    printf("%1d\n", d);  // 3902
 }
