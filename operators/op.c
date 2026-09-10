@@ -6,13 +6,18 @@ int main()
     int b = 3;
 
     // int / int must give value in int
-    a++;
-    printf("increment %d\n", a);
-    a--;
-    printf("int/int = %d\n", (a / b));
 
-    float c = 10;
-    float d = 3;
+    printf("increment %d\n", a++);
+    printf("a mid %d\n", a);
+    printf("increment second :%d\n", ++a);
 
-    printf("flot/float give full value : %d", (c / d));
+    printf("decriment %d\n", a--);
+    printf("a mid %d\n", a);
+    printf("decriment second :%d\n", --a);
+    // printf("int/int = %d\n", (a / b));
+
+    // float c = 10;
+    // float d = 3;
+
+    // printf("flot/float give full value : %d", (c / d));
 }
