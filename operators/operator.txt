@@ -1,0 +1,13 @@
+operator
+
+uinary = for 1 operant 
+example -1 , +5
+
+binary = for 2 operent
+example 1 + 1, 5 - 2
+
+types of operator 
+1. arthematic = +,-,*,/,%,--,++
+2. Rational = 
+3. logical 
+4. assignment
