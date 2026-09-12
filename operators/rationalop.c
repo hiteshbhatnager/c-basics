@@ -7,4 +7,9 @@ int main()
     printf("%d\n", (a < b));
     printf("%d\n", (a > b));
     printf("%d\n", (a != a));
+
+    printf("%d\n", (a > b && a != b)); // 1
+    printf("%d\n", (a > b && a == b)); // 0
+    printf("%d\n", (a > b || a != b)); // 1
+    printf("%d\n", (a > b || a == b)); // 1
 }
