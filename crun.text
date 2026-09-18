@@ -1,0 +1,7 @@
+function crun {
+    param([string]$file)
+    gcc $file -o "$($file -replace '\.c$','.exe')" -Wall -Wextra
+    if ($LASTEXITCODE -eq 0) {
+        & ".\$($file -replace '\.c$','.exe')"
+    }
+}
